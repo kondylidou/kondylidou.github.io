@@ -206,20 +206,20 @@ My PhD subject is achieving higher-order SMT solving by ensuring that extensions
       <div class="row">
 
         <!-- Entry bib key -->
-        <div id="masters_thesis" class="col-sm-8">
+        <div id="tacas2025_wip" class="col-sm-8">
         <!-- Title -->
-        <div class="title">Supporting a CDCL Sat Solver by BDD Methods - Masters Thesis</div>
+        <div class="title">Augmenting Model-Based Instantiation with Fast Enumeration (Work in Progress)</div>
         <!-- Author -->
         <div class="author">
         
 
-        Lydia Kondylidou</div>
+        Lydia Kondylidou, Andrew Reynolds, and Jasmin Blanchette</div>
 
         <!-- Journal/Book title and date -->
         
         
         <div class="periodical">
-          Jan 2023
+          <em>In </em>, 2025
         </div>
         <div class="periodical">
           
@@ -228,7 +228,7 @@ My PhD subject is achieving higher-order SMT solving by ensuring that extensions
           <!-- Links/Buttons -->
           <div class="links">
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="/assets/pdf/Master-Thesis-Kondylidou.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="/assets/pdf/conf.pdf" class="btn btn-sm z-depth-0" role="button">PDF</a>
           </div>
           
           <div class="badges">
@@ -238,24 +238,14 @@ My PhD subject is achieving higher-order SMT solving by ensuring that extensions
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>Boolean satisfiability (SAT) is one of the most important problems of theoretical computer
-  science with many practical applications in which Boolean Satisfiability (SAT) solvers are
-  used in the background as high-performance reasoning engines. These applications include
-  automated planning and scheduling, formal verification, and automated theorem proving. In
-  the last decades, the performance of state-of-the-art SAT solvers has increased dramatically,
-  thanks to the invention of advanced heuristics, preprocessing and inprocessing techniques,
-  and data structures that allow efficient implementation of search space pruning. The in-
-  creasing popularity of SAT in verification and synthesis encourages the search for additional
-  speed-ups. This paper presents a new approach to support a Conflict Driven Clause Learning
-  (CDCL) SAT solver with Binary Decision Diagram (BDD) techniques. While SAT and BDD
-  techniques are often presented as mutually exclusive alternatives, this work points out that
-  both can be improved by running in parallel and exchanging information. In this thesis, a
-  BDD library is implemented in Rust, designed to support the latest version of the Glucose
-  SAT solver. The proposed methods are based on efficient communication between the two
-  architectures. Several benchmarks from the SAT competitions are run both on Glucose alone
-  and Glucose with the contribution of the BDDs, and the results are compared. Eventually,
-  the experiments show that the performance of Glucose is improved when running in parallel
-  with the BDD solver.</p>
+            <p>We introduce MBQI-Enum, an approach that extends
+model-based quantier instantiation (MBQI) with syntax-guided synthe-
+sis (SyGuS) techniques. Our approach targets rst-order theories with-
+out well-established quantier instantiation techniques and higher-order
+quantiers that can benet from instantiations with λ-terms. By incor-
+porating a SyGuS enumerator, it generates a broader set of candidate
+instantiations, including identity functions and terms containing unin-
+terpreted symbols, thereby improving the eectiveness of MBQI.</p>
           </div>
         </div>
       </div>
