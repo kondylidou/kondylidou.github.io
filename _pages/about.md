@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: “Simplicity, carried to the extreme, becomes elegance.”— Jon Franklin
+subtitle: “PhD theoretical computer science”
 
 profile:
   align: right
