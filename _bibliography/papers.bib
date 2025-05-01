@@ -48,10 +48,18 @@ month={January},
 pdf={Master-Thesis-Kondylidou.pdf}
 }
 
-@inproceedings{tacas2025_wip,
+@incollection{tacas2025,
   author    = {Lydia Kondylidou and Andrew Reynolds and Jasmin Blanchette},
-  title     = {Augmenting Model-Based Instantiation with Fast Enumeration (Work in Progress)},
+  title     = {Augmenting Model-Based Instantiation with Fast Enumeration},
+  booktitle = {Tools and Algorithms for the Construction and Analysis of Systems},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {14474},
+  editor    = {Marieke Huisman and Dana Fisman},
+  publisher = {Springer},
   year      = {2025},
+  pages     = {85--103},
+  doi       = {10.1007/978-3-031-57249-4_5},
+  note      = {\href{https://www.springerprofessional.de/en/tools-and-algorithms-for-the-construction-and-analysis-of-system/50934346}{Publisher’s page} ⋅ \href{conf.pdf}{Authors’ PDF}},
   abstract  = {Satisfiability-modulo-theories (SMT) solvers rely on various
 quantifier instantiation strategies to support first- and higher-order logic.
 We introduce MBQI-Enum, an approach that extends model-based quan-
@@ -62,7 +70,5 @@ benefit from instantiations with λ-terms. By incorporating a SyGuS enu-
 merator, it generates a broader set of candidate instantiations, including
 identity functions and terms containing uninterpreted symbols, thereby
 improving the effectiveness of MBQI.},
-  pdf       = {conf.pdf},
-  selected  = {true}
+  pdf       = {conf.pdf}
 }
-
