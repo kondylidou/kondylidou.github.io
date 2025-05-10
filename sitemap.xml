@@ -41,10 +41,6 @@
 <lastmod>2021-07-04T17:39:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://kondylidou.github.io/blog/2022/redirect/</loc>
-<lastmod>2022-02-01T17:39:00+00:00</lastmod>
-</url>
-<url>
 <loc>https://kondylidou.github.io/blog/2022/giscus-comments/</loc>
 <lastmod>2022-12-10T15:59:00+00:00</lastmod>
 </url>
@@ -71,6 +67,10 @@
 <url>
 <loc>https://kondylidou.github.io/blog/2023/custom-blockquotes/</loc>
 <lastmod>2023-05-12T19:53:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://kondylidou.github.io/blog/2025/redirect/</loc>
+<lastmod>2025-05-05T14:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>https://kondylidou.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/</loc>
@@ -134,6 +134,9 @@
 <loc>https://kondylidou.github.io/blog/category/blockquotes/</loc>
 </url>
 <url>
+<loc>https://kondylidou.github.io/blog/category/conference-talk/</loc>
+</url>
+<url>
 <loc>https://kondylidou.github.io/blog/2015/</loc>
 </url>
 <url>
@@ -147,5 +150,8 @@
 </url>
 <url>
 <loc>https://kondylidou.github.io/blog/2023/</loc>
+</url>
+<url>
+<loc>https://kondylidou.github.io/blog/2025/</loc>
 </url>
 </urlset>
