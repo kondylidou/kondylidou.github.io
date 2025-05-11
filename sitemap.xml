@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://kondylidou.github.io/news/announcement_2/</loc>
+<loc>https://kondylidou.github.io/news/ijcar2024/</loc>
 <lastmod>2024-02-12T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://kondylidou.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/</loc>
-<lastmod>2022-04-23T23:20:09+00:00</lastmod>
+<loc>https://kondylidou.github.io/blog/2025/tacas-2025/</loc>
+<lastmod>2025-05-05T14:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>https://kondylidou.github.io/</loc>
@@ -27,6 +27,6 @@
 <loc>https://kondylidou.github.io/teaching/</loc>
 </url>
 <url>
-<loc>https://kondylidou.github.io/blog/2022/</loc>
+<loc>https://kondylidou.github.io/blog/2025/</loc>
 </url>
 </urlset>
