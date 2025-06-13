@@ -1,6 +1,10 @@
 - title: Teaching
   type: time_table
   contents:
+    - title: Cryptography
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: SS25
+      description: <a href="https://moodle.lmu.de/course/view.php?id=38497">Cryptography SS25</a>
     - title: Automated Theorem Proving - Tutorial 
       institution: Ludwig Maximilian University of Munich, Munich, Germany
       year: WS24/25
@@ -49,6 +53,30 @@
 - title: Supervision
   type: time_table
   contents:
+    - title: Bachelorarbeit - Youlguk Choi
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: SS25
+      description: <a href="/assets/pdf/BA-youlguk.pdf"> Proof Visualization</a>
+    - title: Bachelorarbeit - Maximilian Oettl
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: WS24/25
+      description: <a href="/assets/pdf/BA-max.pdf"> Minimierung von Problemen im SMT-LIB v2 Format</a>
+    - title: Bachelorarbeit - Oezge Oezenoglu
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: WS24/25
+      description: <a href="/assets/pdf/BA-oezge.pdf"> Proof Representation in cvc5</a>
+    - title: Bachelorarbeit - Mohamed Amine Ayari
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: SS24
+      description: <a href="/assets/pdf/BA-mohamed.pdf"> Categorical semantics in Haskell</a>
+    - title: Bachelorarbeit - Lemar Abawi
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: SS24
+      description: <a href="/assets/pdf/BA-lemar.pdf"> Implementation of a compiler for MiniJava</a>
+    - title: Bachelorarbeit - Wanda Rosmus
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: SS24
+      description: <a href="/assets/pdf/BA-wanda.pdf"> Resolution Prover in Rust</a>
     - title: Bachelorarbeit - Danail Raykov
       institution: Ludwig Maximilian University of Munich, Munich, Germany
       year: WS23/24
@@ -57,7 +85,3 @@
       institution: Ludwig Maximilian University of Munich, Munich, Germany
       year: WS23/24
       description: Strategies and optimization approaches for the exchange of clauses in SAT Solvers
-    - title: Bachelorarbeit - Wanda Rosmus
-      institution: Ludwig Maximilian University of Munich, Munich, Germany
-      year: SS24
-      description: <a href="/assets/pdf/BA-wanda.pdf"> Resolution Prover in Rust</a>
