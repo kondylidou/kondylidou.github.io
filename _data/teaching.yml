@@ -1,7 +1,15 @@
 - title: Teaching
   type: time_table
   contents:
-    - title: Cryptography
+    - title: SMT Seminar
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: WS25/26
+      description: <a href="https://www.tcs.ifi.lmu.de/lehre/ws-2025-26/smt_de.html">SMT Seminar WS25/26</a>
+    - title: Automated Theorem Proving - Tutorial
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: WS25/26
+      description: <a href="https://www.tcs.ifi.lmu.de/lehre/ws-2025-26/atp_de.html">ATP WS25/26</a>
+    - title: Cryptography Practical Course
       institution: Ludwig Maximilian University of Munich, Munich, Germany
       year: SS25
       description: <a href="https://moodle.lmu.de/course/view.php?id=38497">Cryptography SS25</a>
@@ -12,7 +20,7 @@
     - title: Softwareentwicklungspraktikum für Informatik im Nebenfach
       institution: Ludwig Maximilian University of Munich, Munich, Germany
       year: WS24/25
-    - title: Cryptography
+    - title: Cryptography Practical Course
       institution: Ludwig Maximilian University of Munich, Munich, Germany
       year: SS24
       description: <a href="https://www.tcs.ifi.lmu.de/lehre/ss-2024/crypto_de.html">Cryptography SS24</a>
@@ -53,6 +61,10 @@
 - title: Supervision
   type: time_table
   contents:
+    - title: Bachelorarbeit - Shivam Sambyal
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: SS25
+      description: <a href="/assets/pdf/BA-shivam.pdf"> Benchmarking and Analysis of Automated Theorem Provers</a>
     - title: Bachelorarbeit - Youlguk Choi
       institution: Ludwig Maximilian University of Munich, Munich, Germany
       year: SS25
