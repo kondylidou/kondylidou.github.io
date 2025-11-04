@@ -69,7 +69,34 @@ benefit from instantiations with λ-terms. By incorporating a SyGuS enu-
 merator, it generates a broader set of candidate instantiations, including
 identity functions and terms containing uninterpreted symbols, thereby
 improving the effectiveness of MBQI.},
-  pdf       = {conf.pdf},
+  pdf       = {paper1.pdf},
   html      = {https://doi.org/10.1007/978-3-031-90643-5_5},
+  selected  = {true}
+}
+
+@incollection{draft_tacas2026,
+  author    = {Lydia Kondylidou and Andrew Reynolds and Jasmin Blanchette and Cesare Tinelli},
+  title     = {Enumerating Choice Terms in Model-Based Quantifier Instantiation (Work in progress)},
+  booktitle = {},
+  series    = {},
+  volume    = {},
+  editor    = {},
+  publisher = {},
+  year      = {},
+  pages     = {},
+  doi       = {},
+  abstract  = {Satisfiability modulo theories (SMT) solvers are widely used
+for determining the satisfiability of logical formulas with respect to back-
+ground theories. SMT solvers are traditionally based on first-order logic,
+but some also support higher-order logic. Recently, Kondylidou et al.
+introduced model-based quantifier instantiation with fast enumeration
+(MBQI-Enum), a quantifier instantiation strategy that works for both
+logics. A weakness of MBQI-Enum is that it does not find refutations
+when Hilbert choice terms are necessary. In this work, we present an
+extension of MBQI-Enum that enables it to reason effectively about
+Hilbert's choice operator. The extended strategy substantially increases
+the success rate of the SMT solver cvc5 on higher-order benchmarks.},
+  pdf       = {paper2.pdf},
+  html      = {},
   selected  = {true}
 }
