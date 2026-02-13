@@ -1,76 +1,28 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@unpublished{bachelors_thesis,
-title={Implementation and Comparison of Substitution Trees and Instance Tries - Bachelors Thesis},
-author={Lydia Kondylidou},
-supervisor={Francois Bry, Thomas Prokosch},
-abstract={Term indexing methods have a major impact on the speed of logic programming lan-
-  guages and automated theorem proving systems. Substitution trees are well estab-
-  lished term indexes for logic programming and theorem proving because of their per-
-  formances. However, they rely on heuristics and ignore the partial order that is in-
-  herent to terms. On the other hand, instance tries have been recently proposed as a
-  novel term index for logic programming and automated theorem proving. Instance
-  tries make use of the term order without having to resort to heuristics. In this bache-
-  lor's thesis, the efficiency of instance tries is examined in more detail on the basis of
-  established benchmarks and and it is compared with that of substitution trees.},
-year={2021},
-month={March},
-pdf={Bachelor-Thesis-Kondylidou.pdf},
-html={https://www.en.pms.ifi.lmu.de/publications/diplomarbeiten/Lydia.Kondylidou/BA_Lydia.Kondylidou.pdf},
-}
-
-@unpublished{masters_thesis,
-title={Supporting a CDCL Sat Solver by BDD Methods - Masters Thesis},
-author={Lydia Kondylidou},
-abstract={Boolean satisfiability (SAT) is one of the most important problems of theoretical computer
-  science with many practical applications in which Boolean Satisfiability (SAT) solvers are
-  used in the background as high-performance reasoning engines. These applications include
-  automated planning and scheduling, formal verification, and automated theorem proving. In
-  the last decades, the performance of state-of-the-art SAT solvers has increased dramatically,
-  thanks to the invention of advanced heuristics, preprocessing and inprocessing techniques,
-  and data structures that allow efficient implementation of search space pruning. The in-
-  creasing popularity of SAT in verification and synthesis encourages the search for additional
-  speed-ups. This paper presents a new approach to support a Conflict Driven Clause Learning
-  (CDCL) SAT solver with Binary Decision Diagram (BDD) techniques. While SAT and BDD
-  techniques are often presented as mutually exclusive alternatives, this work points out that
-  both can be improved by running in parallel and exchanging information. In this thesis, a
-  BDD library is implemented in Rust, designed to support the latest version of the Glucose
-  SAT solver. The proposed methods are based on efficient communication between the two
-  architectures. Several benchmarks from the SAT competitions are run both on Glucose alone
-  and Glucose with the contribution of the BDDs, and the results are compared. Eventually,
-  the experiments show that the performance of Glucose is improved when running in parallel
-  with the BDD solver.},
-year={2023},
-month={January},
-pdf={Master-Thesis-Kondylidou.pdf}
-}
-
-@incollection{tacas2025,
-  author    = {Lydia Kondylidou and Andrew Reynolds and Jasmin Blanchette},
-  title     = {Augmenting Model-Based Instantiation with Fast Enumeration},
-  booktitle = {TACAS},
+@unpublished{taos,
+  author    = {Lydia Kondylidou and Jasmin Blanchette and Marijn J.H. Heule},
+  title     = {Tao's Equational Proof Challenge Accepted (Work in progress)},
+  booktitle = {},
   series    = {LNCS},
-  volume    = {14474},
-  editor    = {Marieke Huisman and Dana Fisman},
+  volume    = {},
+  editor    = {},
   publisher = {Springer},
-  year      = {2025},
-  pages     = {85--103},
-  doi       = {10.1007/978-3-031-90643-5_5},
-  abstract  = {Satisfiability-modulo-theories (SMT) solvers rely on various
-quantifier instantiation strategies to support first- and higher-order logic.
-We introduce MBQI-Enum, an approach that extends model-based quan-
-tifier instantiation (MBQI) with syntax-guided synthesis (SyGuS) tech-
-niques. Our approach targets first-order theories without well-established
-quantifier instantiation techniques and higher-order quantifiers that can
-benefit from instantiations with λ-terms. By incorporating a SyGuS enu-
-merator, it generates a broader set of candidate instantiations, including
-identity functions and terms containing uninterpreted symbols, thereby
-improving the effectiveness of MBQI.},
-  pdf       = {paper1.pdf},
-  html      = {https://doi.org/10.1007/978-3-031-90643-5_5},
+  year      = {2026},
+  pages     = {},
+  doi       = {},
+  abstract  = {In the context of the Equational Theories Project,
+Terence Tao posed the challenge of finding alternatives to a complicated 62-step
+proof found by the Vampire superposition prover. We introduce a proof
+minimization tool called Krympa. Using a combination of brute force and
+heuristics, and exploiting both Vampire and the Twee equational prover, the tool
+reduces the 62-step proof to 20~steps, each corresponding to a rewrite. In an
+empirical evaluation, it also performs well on 1431 equational problems
+originating from the same project, reducing in particular a 151-step proof to
+only 10~steps.},
+  pdf       = {paper3.pdf},
+  html      = {},
   selected  = {true}
 }
 
@@ -99,4 +51,75 @@ benchmarks.},
   pdf       = {paper2.pdf},
   html      = {},
   selected  = {true}
+}
+
+@incollection{tacas2025,
+  author    = {Lydia Kondylidou and Andrew Reynolds and Jasmin Blanchette},
+  title     = {Augmenting Model-Based Instantiation with Fast Enumeration},
+  booktitle = {TACAS},
+  series    = {LNCS},
+  volume    = {14474},
+  editor    = {Marieke Huisman and Dana Fisman},
+  publisher = {Springer},
+  year      = {2025},
+  pages     = {85--103},
+  doi       = {10.1007/978-3-031-90643-5_5},
+  abstract  = {Satisfiability-modulo-theories (SMT) solvers rely on various
+quantifier instantiation strategies to support first- and higher-order logic.
+We introduce MBQI-Enum, an approach that extends model-based quan-
+tifier instantiation (MBQI) with syntax-guided synthesis (SyGuS) tech-
+niques. Our approach targets first-order theories without well-established
+quantifier instantiation techniques and higher-order quantifiers that can
+benefit from instantiations with λ-terms. By incorporating a SyGuS enu-
+merator, it generates a broader set of candidate instantiations, including
+identity functions and terms containing uninterpreted symbols, thereby
+improving the effectiveness of MBQI.},
+  pdf       = {paper1.pdf},
+  html      = {https://doi.org/10.1007/978-3-031-90643-5_5},
+  selected  = {true}
+}
+
+@unpublished{masters_thesis,
+title={Supporting a CDCL Sat Solver by BDD Methods - Masters Thesis},
+author={Lydia Kondylidou},
+abstract={Boolean satisfiability (SAT) is one of the most important problems of theoretical computer
+  science with many practical applications in which Boolean Satisfiability (SAT) solvers are
+  used in the background as high-performance reasoning engines. These applications include
+  automated planning and scheduling, formal verification, and automated theorem proving. In
+  the last decades, the performance of state-of-the-art SAT solvers has increased dramatically,
+  thanks to the invention of advanced heuristics, preprocessing and inprocessing techniques,
+  and data structures that allow efficient implementation of search space pruning. The in-
+  creasing popularity of SAT in verification and synthesis encourages the search for additional
+  speed-ups. This paper presents a new approach to support a Conflict Driven Clause Learning
+  (CDCL) SAT solver with Binary Decision Diagram (BDD) techniques. While SAT and BDD
+  techniques are often presented as mutually exclusive alternatives, this work points out that
+  both can be improved by running in parallel and exchanging information. In this thesis, a
+  BDD library is implemented in Rust, designed to support the latest version of the Glucose
+  SAT solver. The proposed methods are based on efficient communication between the two
+  architectures. Several benchmarks from the SAT competitions are run both on Glucose alone
+  and Glucose with the contribution of the BDDs, and the results are compared. Eventually,
+  the experiments show that the performance of Glucose is improved when running in parallel
+  with the BDD solver.},
+year={2023},
+month={January},
+pdf={Master-Thesis-Kondylidou.pdf}
+}
+
+@unpublished{bachelors_thesis,
+title={Implementation and Comparison of Substitution Trees and Instance Tries - Bachelors Thesis},
+author={Lydia Kondylidou},
+supervisor={Francois Bry, Thomas Prokosch},
+abstract={Term indexing methods have a major impact on the speed of logic programming lan-
+  guages and automated theorem proving systems. Substitution trees are well estab-
+  lished term indexes for logic programming and theorem proving because of their per-
+  formances. However, they rely on heuristics and ignore the partial order that is in-
+  herent to terms. On the other hand, instance tries have been recently proposed as a
+  novel term index for logic programming and automated theorem proving. Instance
+  tries make use of the term order without having to resort to heuristics. In this bache-
+  lor's thesis, the efficiency of instance tries is examined in more detail on the basis of
+  established benchmarks and and it is compared with that of substitution trees.},
+year={2021},
+month={March},
+pdf={Bachelor-Thesis-Kondylidou.pdf},
+html={https://www.en.pms.ifi.lmu.de/publications/diplomarbeiten/Lydia.Kondylidou/BA_Lydia.Kondylidou.pdf},
 }
