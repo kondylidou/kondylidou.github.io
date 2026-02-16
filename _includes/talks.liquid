@@ -1,0 +1,30 @@
+<div class="talks">
+  {% assign talks_list = site.talks | sort: "date" | reverse %}
+  {% assign talks_size = talks_list | size %}
+
+  {% if talks_size > 0 %}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+        {% for item in talks_list %}
+          <tr>
+            <th scope="row" style="width: 20%">
+              {{ item.date | date: '%b %Y' }}
+            </th>
+            <td>
+              {% if item.pdf %}
+                <a class="news-title" href="{{ item.pdf | relative_url }}">
+                  {{ item.title }}
+                </a>
+                <i class="fa-solid fa-file-pdf ml-1"></i>
+              {% else %}
+                {{ item.title }}
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No talks yet.</p>
+  {% endif %}
+</div>
