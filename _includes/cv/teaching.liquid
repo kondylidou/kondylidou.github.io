@@ -1,0 +1,51 @@
+{% comment %}
+  Teaching renderer — clean CV style
+{% endcomment %}
+
+{% assign list = entries %}
+{% if entries.contents %}
+  {% assign list = entries.contents %}
+{% endif %}
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in list %}
+    <li class="list-group-item">
+      <div class="row">
+        {% capture item_date %}
+          {% if entry.year %}{{ entry.year }}{% elsif entry.date %}{{ entry.date }}{% endif %}
+        {% endcapture %}
+
+        {% if item_date != '' %}
+          <div class="col-xs-2 col-sm-2 col-md-2 text-center">
+            <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width:75px">
+              {{ item_date }}
+            </span>
+          </div>
+          <div class="col-xs-10 col-sm-10 col-md-10">
+        {% else %}
+          <div class="col-md-12">
+        {% endif %}
+
+            {% capture item_title %}
+              {% if entry.title %}{{ entry.title }}{% elsif entry.name %}{{ entry.name }}{% endif %}
+            {% endcapture %}
+
+            {% if item_title != '' %}
+              <h6 class="title font-weight-bold ml-1 ml-md-2">{{ item_title }}</h6>
+            {% endif %}
+
+            {% if entry.institution %}
+              <div class="ml-1 ml-md-2">{{ entry.institution }}</div>
+            {% endif %}
+
+            {% if entry.description %}
+              <div class="ml-1 ml-md-2">{{ entry.description }}</div>
+            {% elsif entry.summary %}
+              <div class="ml-1 ml-md-2">{{ entry.summary }}</div>
+            {% endif %}
+
+          </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: “Reasoning about Reasoning”
 
 profile:
   align: right
@@ -27,8 +27,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I'm Lydia Kondylidou, a PhD student in the Department of Theoretical
+Computer Science and Theorem Proving at LMU Munich, working under the
+supervision of Prof. Jasmin Blanchette.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests lie in automated reasoning, with a focus on automated
+theorem proving. My PhD explores how to extend SMT solvers with native support
+for higher-order reasoning, as well as techniques for proof minimization in
+first-order logic. More broadly, I am interested in methods for finding and
+minimizing proofs in both first-order and higher-order logic.
