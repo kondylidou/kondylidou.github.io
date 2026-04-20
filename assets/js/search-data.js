@@ -424,6 +424,11 @@ ninja.data = [{
           description: "",
           section: "Talks",handler: () => {
               window.location.href = "/talks/2025-tacas/";
+            },},{id: "talks-tao-39-s-equational-proof-challenge-accepted",
+          title: 'Tao&amp;#39;s Equational Proof Challenge Accepted',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2026-dagstuhl/";
             },},{id: "talks-enumerating-choice-terms-in-model-based-quantifier-instantiation",
           title: 'Enumerating Choice Terms in Model-Based Quantifier Instantiation',
           description: "",
