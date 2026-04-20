@@ -113,6 +113,19 @@ cv:
     #     reference: Available upon request
 
     Teaching:
+      - title: Softwareentwicklungspraktikum für Informatik im Nebenfach
+        institution: Ludwig Maximilian University of Munich, Munich, Germany
+        year: WS26/27
+
+      - title: Automated Theorem Proving - Tutorial
+        institution: Ludwig Maximilian University of Munich, Munich, Germany
+        year: WS26/27
+
+      - title: Cryptography Practical Course
+        institution: Ludwig Maximilian University of Munich, Munich, Germany
+        year: SS26
+        description: <a href="https://www.tcs.ifi.lmu.de/teaching/courses-ss-2026/cryptography">Cryptography SS26</a>
+
       - title: SMT Seminar
         institution: Ludwig Maximilian University of Munich, Munich, Germany
         year: WS25/26
