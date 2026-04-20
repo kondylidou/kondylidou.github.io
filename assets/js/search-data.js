@@ -421,6 +421,11 @@ ninja.data = [{
           description: "",
           section: "Talks",handler: () => {
               window.location.href = "/talks/2025-tacas/";
+            },},{id: "talks-augmenting-model-based-instantiation-with-fast-enumeration-in-smt",
+          title: 'Augmenting Model-Based Instantiation with Fast Enumeration in SMT',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/2026-tacas/";
             },},{
         id: 'social-cv',
         title: 'CV',
