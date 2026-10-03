@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -414,11 +407,19 @@ ninja.data = [{
           section: "News",},{id: "news-subreviewer-ijcar-2026",
           title: 'Subreviewer, IJCAR 2026',
           description: "",
+          section: "News",},{id: "news-local-arrangements-chair-lpar-26-spetses-greece-october-2026",
+          title: 'Local Arrangements Chair, LPAR-26, Spetses, Greece, October 2026',
+          description: "",
           section: "News",},{id: "projects-krympa",
           title: 'Krympa',
           description: "Proof minimization tool for equational reasoning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-taelja",
+          title: 'Taelja',
+          description: "Translating refutation proofs into readable proofs for the Horn fragment",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
             },},{id: "talks-augmenting-model-based-instantiation-with-fast-enumeration-in-smt",
           title: 'Augmenting Model-Based Instantiation with Fast Enumeration in SMT',
           description: "",
