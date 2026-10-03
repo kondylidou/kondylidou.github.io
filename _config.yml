@@ -171,6 +171,8 @@ collections:
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
+future: true # publish items dated in the future (e.g. news dated by an upcoming event)
+
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
