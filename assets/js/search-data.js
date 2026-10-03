@@ -417,7 +417,7 @@ ninja.data = [{
               window.location.href = "/projects/1_project/";
             },},{id: "projects-taelja",
           title: 'Taelja',
-          description: "Translating refutation proofs into readable proofs for the Horn fragment",
+          description: "Translates refutations produced by resolution and superposition provers into direct, structured, and readable proofs",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "talks-augmenting-model-based-instantiation-with-fast-enumeration-in-smt",
