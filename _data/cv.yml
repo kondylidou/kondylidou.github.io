@@ -1,6 +1,6 @@
 cv:
   name: Lydia Kondylidou
-  label: PhD Student in Theoretical Computer Science at LMU
+  label: Researcher in Theoretical Computer Science at LMU Munich
   email: l.kondylidou@lmu.de
   location: Munich, Germany
   image: ""
@@ -22,12 +22,16 @@ cv:
       - institution: Ludwig Maximilian University of Munich
         location: Munich, Germany
         area: Computer Science
-        studyType: PhD
+        studyType: PhD (Dr. rer. nat.)
         start_date: 2023-05
-        end_date: ""
+        end_date: 2026-11
+        score: "1.13 (magna cum laude)"
         highlights:
+          - "Thesis: Finding, Simplifying and Presenting Proofs Automatically"
+          - "Supervisor: Prof. Jasmin Blanchette"
           - Higher-order SMT
           - Proof minimization
+          - Readable proofs
 
       - institution: Ludwig Maximilian University of Munich
         location: Munich, Germany
