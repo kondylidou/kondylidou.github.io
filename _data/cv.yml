@@ -108,6 +108,7 @@ cv:
       - title: The TPTP Format for Interpretations
         publisher: G. Sutcliffe, A. Steen, P. Fontaine, L. Kondylidou. PAAR 2026
         date: 2026
+        url: https://arxiv.org/abs/2406.06108
 
       - title: Readable Proofs for the Horn Fragment
         publisher: L. Kondylidou, J. Blanchette, N. Smallbone, U. Waldmann. Submitted to CPP 2027
