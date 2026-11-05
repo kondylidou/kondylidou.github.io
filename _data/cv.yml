@@ -106,9 +106,9 @@ cv:
         url: https://doi.org/10.1007/978-3-032-32589-1_1
 
       - title: The TPTP Format for Interpretations
-        publisher: G. Sutcliffe, A. Steen, P. Fontaine, L. Kondylidou. PAAR 2026
+        publisher: G. Sutcliffe, A. Steen, P. Fontaine, L. Kondylidou. PAAR 2026, CEUR Workshop Proceedings 4241
         date: 2026
-        url: https://arxiv.org/abs/2406.06108
+        url: https://ceur-ws.org/Vol-4241/paper1.pdf
 
       - title: Readable Proofs for the Horn Fragment
         publisher: L. Kondylidou, J. Blanchette, N. Smallbone, U. Waldmann. Submitted to CPP 2027
