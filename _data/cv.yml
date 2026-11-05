@@ -4,12 +4,10 @@ cv:
   email: l.kondylidou@lmu.de
   location: Munich, Germany
   image: ""
-  # summary: >
-  #   My research interests lie in automated reasoning, with a focus on automated
-  #   theorem proving. My PhD explores how to extend SMT solvers with native
-  #   support for higher-order reasoning, as well as techniques for proof
-  #   minimization in first-order logic. More broadly, I am interested in methods
-  #   for finding and minimizing proofs in both first-order and higher-order logic.
+  summary: >
+    Automated reasoning and theorem proving, with a focus on satisfiability
+    modulo theories, quantifier instantiation, proof simplification, and proof
+    presentation, in first- and higher-order logic.
 
   social_networks:
     - network: GitHub
@@ -25,13 +23,10 @@ cv:
         studyType: PhD (Dr. rer. nat.)
         start_date: 2023-05
         end_date: 2026-11
-        score: "1.13 (magna cum laude)"
         highlights:
-          - "Thesis: Finding, Simplifying and Presenting Proofs Automatically"
-          - "Supervisor: Prof. Jasmin Blanchette"
-          - Higher-order SMT
-          - Proof minimization
-          - Readable proofs
+          - "Thesis: *Finding, Simplifying and Presenting Proofs Automatically*"
+          - "Supervisor: Prof. Dr. Jasmin Blanchette"
+          - Defended on November 2, 2026, magna cum laude (1.13)
 
       - institution: Ludwig Maximilian University of Munich
         location: Munich, Germany
@@ -43,22 +38,30 @@ cv:
 
       - institution: Ludwig Maximilian University of Munich
         location: Munich, Germany
-        area: Computer Science + Mathematics
+        area: Computer Science, minor in Mathematics
         studyType: Bachelor of Science
         start_date: 2014-04
-        end_date: 2021-04
+        end_date: 2021-03
         score: "2.41/1"
 
       - institution: National and Kapodistrian University of Athens
         location: Athens, Greece
         area: Mathematics
-        studyType: Bachelor of Science
+        studyType: Bachelor of Science (partial)
         start_date: 2013-09
         end_date: 2014-03
 
     Experience:
+      - company: University of Iowa
+        position: Visiting Researcher
+        location: Iowa City, USA
+        start_date: 2025-07
+        end_date: 2025-09
+        highlights:
+          - "Host: Prof. Cesare Tinelli"
+
       - company: Scontain GmbH
-        position: Software Developer
+        position: Software Developer, Rust Backend
         location: Dresden, Germany
         start_date: 2022-09
         end_date: 2023-04
@@ -86,115 +89,135 @@ cv:
           - Java applications
           - Database reporting (Oracle)
 
-    Languages:
-      - name: Greek
-        summary: Native
-      - name: English
-        summary: Fluent
-      - name: German
-        summary: Fluent
-      - name: Spanish
-        summary: Fluent
+    Publications:
+      - title: Augmenting Model-Based Instantiation with Fast Enumeration
+        publisher: L. Kondylidou, A. Reynolds, J. Blanchette. TACAS 2025, LNCS 15696, pp. 85–103
+        date: 2025
+        url: https://doi.org/10.1007/978-3-031-90643-5_5
 
-    Interests:
-      - name: Hobbies
-        keywords: "Snowboard, Surf, Tango"
+      - title: Enumerating Choice Terms in Model-Based Quantifier Instantiation
+        publisher: L. Kondylidou, A. Reynolds, J. Blanchette, C. Tinelli. TACAS 2026, LNCS 16505, pp. 295–314
+        date: 2026
+        url: https://doi.org/10.1007/978-3-032-22752-2_15
 
-   
-    # Awards:
-    #   - title: Example Award
-    #     date: 2020
-    #     awarder: Example Organization
-    #     summary: Description
+      - title: Tao's Equational Proof Challenge Accepted
+        publisher: L. Kondylidou, J. Blanchette, M. J. H. Heule. IJCAR 2026, LNAI 16688, pp. 3–21
+        date: 2026
+        url: https://doi.org/10.1007/978-3-032-32589-1_1
 
-    # Certificates:
-    #   - name: Example Certificate
-    #     date: 2018
-    #     issuer: Example University
+      - title: The TPTP Format for Interpretations
+        publisher: G. Sutcliffe, A. Steen, P. Fontaine, L. Kondylidou. PAAR 2026
+        date: 2026
 
-    # References:
-    #   - name: Professor John Doe
-    #     reference: Available upon request
+      - title: Readable Proofs for the Horn Fragment
+        publisher: L. Kondylidou, J. Blanchette, N. Smallbone, U. Waldmann. Submitted to CPP 2027
+        date: 2026
+        url: /assets/pdf/taelja.pdf
+
+      - title: Augmenting Model-Based Instantiation with Fast Enumeration (extended version)
+        publisher: L. Kondylidou, A. Reynolds, J. Blanchette. To be submitted to a journal
+        date: 2026
+
+    Academic Service:
+      - label: "2026"
+        details: Local Arrangements Chair, LPAR 2026
+      - label: "2026"
+        details: Subreviewer, IJCAR 2026
+      - label: "2025"
+        details: Subreviewer, OOPSLA 2025
+      - label: "2025"
+        details: Subreviewer, IJCAR 2024
+
+    Projects:
+      - name: CSLib
+        url: https://www.cslib.io/
+        start_date: 2025
+        end_date: present
+        summary: >
+          A focused initiative to formalize computer science in Lean. I am
+          contributing to Boole, an intermediate programming language that allows
+          imperative code to be interspersed with formal specifications, supporting
+          automated generation of verification conditions in Lean.
 
     Teaching:
-      - title: Softwareentwicklungspraktikum für Informatik im Nebenfach
+      - title: Lecturer, Softwareentwicklungspraktikum für Informatik im Nebenfach
         institution: Ludwig Maximilian University of Munich, Munich, Germany
         year: WS26/27
 
-      - title: Cryptography Practical Course
+      - title: Lecturer, Cryptography (practical course)
         institution: Ludwig Maximilian University of Munich, Munich, Germany
         year: SS26
         description: <a href="https://www.tcs.ifi.lmu.de/teaching/courses-ss-2026/cryptography">Cryptography SS26</a>
 
-      - title: SMT Seminar
+      - title: Lecturer, Satisfiability Modulo Theories (seminar)
         institution: Ludwig Maximilian University of Munich, Munich, Germany
         year: WS25/26
         description: <a href="https://www.tcs.ifi.lmu.de/lehre/ws-2025-26/smt_de.html">SMT Seminar WS25/26</a>
 
-      - title: Automated Theorem Proving - Tutorial
+      - title: Teaching assistant, Automated Theorem Proving (lecture)
         institution: Ludwig Maximilian University of Munich, Munich, Germany
         year: WS25/26
         description: <a href="https://www.tcs.ifi.lmu.de/lehre/ws-2025-26/atp_de.html">ATP WS25/26</a>
 
-      - title: Cryptography Practical Course
+      - title: Lecturer, Cryptography (practical course)
         institution: Ludwig Maximilian University of Munich, Munich, Germany
         year: SS25
         description: <a href="https://moodle.lmu.de/course/view.php?id=38497">Cryptography SS25</a>
 
-      - title: Automated Theorem Proving - Tutorial
+      - title: Teaching assistant, Automated Theorem Proving (lecture)
         institution: Ludwig Maximilian University of Munich, Munich, Germany
         year: WS24/25
         description: <a href="https://www.tcs.ifi.lmu.de/lehre/ws-2024-25/atp_de.html">ATP WS24/25</a>
 
-      - title: Softwareentwicklungspraktikum für Informatik im Nebenfach
+      - title: Lecturer, Softwareentwicklungspraktikum für Informatik im Nebenfach
         institution: Ludwig Maximilian University of Munich, Munich, Germany
         year: WS24/25
 
-      - title: Cryptography Practical Course
+      - title: Lecturer, Cryptography (practical course)
         institution: Ludwig Maximilian University of Munich, Munich, Germany
         year: SS24
         description: <a href="https://www.tcs.ifi.lmu.de/lehre/ss-2024/crypto_de.html">Cryptography SS24</a>
 
-      - title: Softwareentwicklungspraktikum für Informatik im Nebenfach
+      - title: Lecturer, Softwareentwicklungspraktikum für Informatik im Nebenfach
         institution: Ludwig Maximilian University of Munich, Munich, Germany
         year: WS23/24
         description: <a href="https://www.tcs.ifi.lmu.de/lehre/ws-2023-24/sepnf_de.html">SEPNF WS23/24</a>
 
-      - title: SAT Solving - Tutorial
+      - title: Teaching assistant, SAT Solving
         institution: Ludwig Maximilian University of Munich, Munich, Germany
         year: WS23/24
         description: <a href="https://www.tcs.ifi.lmu.de/lehre/ws-2023-24/sat_de.html">SAT WS23/24</a>
 
-      - title: Programming and Modelling with Haskell - Tutorial
+      - title: Teaching assistant, Programming and Modelling with Haskell
         institution: Ludwig Maximilian University of Munich, Munich, Germany
         year: SS22
 
-      - title: Logic and Discrete Structures - Tutorial
+      - title: Teaching assistant, Logic and Discrete Structures
         institution: Ludwig Maximilian University of Munich, Munich, Germany
         year: SS22
 
-      - title: SAT Solving - Tutorial
+      - title: Teaching assistant, SAT Solving
         institution: Ludwig Maximilian University of Munich, Munich, Germany
         year: WS21/22
         description: <a href="https://uni2work.ifi.lmu.de/course/W21/IfI/SAT">SAT WS21/22</a>
 
-      - title: Programming and Modelling with Haskell - Tutorial
+      - title: Teaching assistant, Programming and Modelling with Haskell
         institution: Ludwig Maximilian University of Munich, Munich, Germany
         year: SS21
 
-      - title: Logic and Discrete Structures - Tutorial
+      - title: Teaching assistant, Logic and Discrete Structures
         institution: Ludwig Maximilian University of Munich, Munich, Germany
         year: SS21
 
-      - title: Functional Programming - Tutorial
+      - title: Teaching assistant, Functional Programming
         institution: Technical University of Munich, Munich, Germany
         year: WS20/21
 
-      - title: Programming and Modelling with Haskell - Tutorial
+      - title: Teaching assistant, Programming and Modelling with Haskell
         institution: Ludwig Maximilian University of Munich, Munich, Germany
         year: SS20
 
-      - title: Introduction to Computer Science with Java - Tutorial
+      - title: Teaching assistant, Introduction to Computer Science with Java
         institution: Ludwig Maximilian University of Munich, Munich, Germany
         year: WS19/20
 
@@ -243,3 +266,33 @@ cv:
         institution: Ludwig Maximilian University of Munich, Munich, Germany
         year: WS23/24
         description: Strategies for clause exchange in SAT solvers
+
+    Languages:
+      - name: Greek
+        summary: Native
+      - name: English
+        summary: Fluent
+      - name: German
+        summary: Fluent
+      - name: Spanish
+        summary: Fluent
+
+    Interests:
+      - name: Hobbies
+        keywords: "Snowboard, Surf, Tango"
+
+   
+    # Awards:
+    #   - title: Example Award
+    #     date: 2020
+    #     awarder: Example Organization
+    #     summary: Description
+
+    # Certificates:
+    #   - name: Example Certificate
+    #     date: 2018
+    #     issuer: Example University
+
+    # References:
+    #   - name: Professor John Doe
+    #     reference: Available upon request
