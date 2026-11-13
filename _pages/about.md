@@ -28,10 +28,10 @@ talks:
 ---
 
 Hi! I'm Lydia Kondylidou, a researcher in the Department of Theoretical
-Computer Science and Theorem Proving at LMU Munich. I completed my PhD there
+Computer Science and Theorem Proving at LMU Munich. I completed my PhD at LMU Munich
 in November 2026 (magna cum laude), under the supervision of Prof. Jasmin
-Blanchette, with the thesis *Finding, Simplifying and Presenting Proofs
-Automatically*.
+Blanchette, with the thesis [*Finding, Simplifying and Presenting Proofs
+Automatically*](/assets/pdf/PhD-Thesis-Kondylidou.pdf).
 
 My research interests lie in automated reasoning, with a focus on automated
 theorem proving. My PhD explored how to extend SMT solvers with native support
