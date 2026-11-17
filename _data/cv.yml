@@ -1,6 +1,6 @@
 cv:
   name: Lydia Kondylidou
-  label: Researcher in Theoretical Computer Science at LMU Munich
+  label: Postdoctoral Researcher in Theoretical Computer Science at LMU Munich
   email: l.kondylidou@lmu.de
   location: Munich, Germany
   image: ""
@@ -24,7 +24,7 @@ cv:
         start_date: 2023-05
         end_date: 2026-11
         highlights:
-          - "Thesis: [*Finding, Simplifying and Presenting Proofs Automatically*](/assets/pdf/PhD-Thesis-Kondylidou.pdf)"
+          - "Thesis: *Finding, Simplifying and Presenting Proofs Automatically* ([PDF](https://edoc.ub.uni-muenchen.de/37955/1/Kondylidou_Lydia.pdf), [HTML](https://edoc.ub.uni-muenchen.de/37955/))"
           - "Supervisor: Prof. Dr. Jasmin Blanchette"
           - Defended on November 2, 2026, magna cum laude (1.13)
 
